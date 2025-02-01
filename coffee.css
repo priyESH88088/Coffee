@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    padding-top: 100px;
+    background-image:url(./coffe.jpg);
+    background-size: cover;
+    height: 230px;   
+    width:100%;
+
+   margin-bottom: 5px;
+    box-shadow: 2px 2px 4px 4px rgb(136, 96, 96);
+    background-position: center left;
+    position: relative;
+}
+  
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+.input{
+    height:50px;
+    width: 600px;
+     position: absolute;
+    border-radius: 10px;
+    color: bisque;
+    background-color:rgb(139, 83, 43);
+   
+}
+ img{
+    height:150px;
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 8px 8px rgb(121, 85, 91);
+ }
+ .coffeecup{
+    display: flex;
+   justify-content:space-around;
+   margin: 40px;
+   align-items: center;
+   padding: 10px;
+ }
+ img:hover{
+   transform: scale(1.2);
+  box-shadow: 4px 4px 10px 10px rgb(95, 70, 74);
+ 
+ }
+    
+ .coffeecup p{
+    margin: 15px;
+    margin-left: 30px;
+    color: rgb(44, 40, 40);
+    text-shadow: 20px;
+    font-stretch: semi-expanded;
+    font-size: larger;
+    font-weight: bold;
+ }
+.text1,.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgb(209, 133, 158);
+    padding: 30px;
+    margin: 40px;
+    border-radius:5px;
+    font-size:large;
+    text-decoration-color: coral;
+    color:rgb(173, 18, 18);
+    box-shadow: 3px 3px 8px 8px rgb(131, 43, 91);
+   gap: 14px;
+   font-style: italic;
+}
+h2{
+    font-style: normal;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
